@@ -1,5 +1,5 @@
-**Aplicació per guardar contrasenyes en PHP.
-**
+Aplicació per guardar contrasenyes en PHP.
+
 
 Base de dades:
 
