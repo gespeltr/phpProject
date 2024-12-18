@@ -1,7 +1,5 @@
 <?php
-    if (!isset($_SESSION)){
-        session_start();
-    };
+    session_start();
 
     function peu_pagina(){
         echo <<<EOT

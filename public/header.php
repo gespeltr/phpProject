@@ -1,7 +1,5 @@
 <?php
-    if (!isset($_SESSION)){
-        session_start();
-    };
+    session_start();
 
     function capcalera(){
         //EOT es per imprimir mes d'una liea com si fos un echo, ho faig servir perque s'entengui millor i

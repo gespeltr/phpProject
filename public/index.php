@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <?php
-    if (!isset($_SESSION)){
-        session_start();
-    };
+    session_start();
 
     include 'header.php';
     include 'footer.php';
