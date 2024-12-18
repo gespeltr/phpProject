@@ -1,6 +1,5 @@
 <?php
-    include 'header.php';
-    include 'footer.php';
+    include 'headerfooter.php';
 ?>
 <html lang="ca">
 <head>

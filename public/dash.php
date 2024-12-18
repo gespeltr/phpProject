@@ -6,8 +6,7 @@
     }
 
     require_once '../db/conn.php';
-    include 'header.php';
-    include 'footer.php';
+    include 'headerfooter.php';
 ?>
 <!DOCTYPE html>
 <html lang="ca">
