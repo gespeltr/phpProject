@@ -1,5 +1,11 @@
 <?php
 
+    session_start();
+
+    if (!isset($_SESSION['login'])){
+        header("Location: index.php");
+    }
+
     function capcalera(){
         //EOT es per imprimir mes d'una liea com si fos un echo, ho faig servir perque s'entengui millor i
         //no doni problemes al obrir i tancar cometes
@@ -33,4 +39,15 @@
         echo " ";
         echo "<a class='btn btn-primary' href='afegir_web.php' role='button'>Afegir web</a>";
     };
+
+    function peu_pagina(){
+        echo <<<EOT
+            <br>
+            <div>
+                <div class="footer">
+                        <div class="p-2 bg-secondary text-white">© 2023 ASIX-MP09-UF1</div>
+                </div>
+            </div>
+        EOT;
+    }
 ?>
