@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <?php
     session_start();
 
@@ -9,6 +8,7 @@
     include 'header.php';
     include 'footer.php';
 ?>
+<!DOCTYPE html>
 <html lang="ca">
 <head>
     <meta charset="UTF-8">
