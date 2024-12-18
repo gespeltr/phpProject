@@ -1,11 +1,5 @@
 <?php
 
-    session_start();
-
-    if (!isset($_SESSION['login'])){
-        header("Location: index.php");
-    }
-
     function capcalera(){
         //EOT es per imprimir mes d'una liea com si fos un echo, ho faig servir perque s'entengui millor i
         //no doni problemes al obrir i tancar cometes
