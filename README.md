@@ -1,4 +1,4 @@
-Aplicació per guardar contrasenyes en PHP.
+Aplicació per guardar contrasenyes en PHP CRUD.
 
 
 Base de dades:
